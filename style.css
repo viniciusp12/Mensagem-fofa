@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#canvas-container {
+    position: relative;
+}
+
+#phrase-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#phrase {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 10px; /* Espaçamento entre as linhas de texto */
+}
